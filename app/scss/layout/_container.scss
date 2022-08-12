@@ -1,0 +1,16 @@
+@use "../util" as *;
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: min(90%, rem(320));
+}
